@@ -1,9 +1,8 @@
 # Terraform multi-cloud automation project
-
 In this project we use Terraform to automate AWS and Azure cloud resources parallely using Terraform configuration.
  
  
-## Build multi-cloud networking resources in Azure and AWS using Terraform
+## Build multi-cloud Kubernetes cluster in Azure and AWS using Terraform
 ```bash
 # Switch to Terraform project directory.
 $ cd <PROJECT_ROOT_DIR>
