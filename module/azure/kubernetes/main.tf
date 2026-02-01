@@ -61,7 +61,7 @@ resource "azurerm_subnet" "container_s2_vnet_aks_sn_2" {
   name = "container-s2-aks-ct"
   resource_group_name = azurerm_resource_group.rg.name
   location = azurerm_resource_group.rg.location
-  kubernetes_version = "1.28.15"
+  kubernetes_version = "1.32"
   sku_tier = "Free"
   identity {
     type = "SystemAssigned"
